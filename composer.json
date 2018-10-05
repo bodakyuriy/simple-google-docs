@@ -1,0 +1,13 @@
+{
+    "name": "yuriybodak/simple-google-docs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "yuriybodak",
+            "email": "bodakyura@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
