@@ -73,7 +73,7 @@ class SimpleGoogleDrive
             return [
                 'filename' => $filename,
                 'fileId' => $file->id,
-                'url' => 'https://docs.google.com/' . $type . '/d/' . $file->id . '/edit',
+                'url' =>  $file->id,
             ];
         } catch (\Google_Service_Exception $ex) {
             $exception = json_decode($ex->getMessage());
